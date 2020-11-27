@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Holiday Challenge
+
+A week long challenge during the Holiday week. Your task is to create a holiday themed website like countdown to christmas site, holiday photos posting site, etc. using web technologies. An opportunity to test your wide variety of coding, design, and problem-solving skills The challenge covers a wide range of technologies, including HTML, CSS, JavaScript, React and more!
+
 ## Getting Started
 
 First, run the development server:
