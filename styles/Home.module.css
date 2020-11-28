@@ -1,11 +1,15 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+.section{
   background: #206391;
   color: #E5E5E5;
-  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
 .content{
   position: absolute;
@@ -15,6 +19,28 @@
 }
 .title{
   font-size: 56px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+  text-shadow:
+    -1px 1px rgba(0,0,0,0.01),
+    -2px 2px rgba(0,0,0,0.03),
+    -3px 3px rgba(0,0,0,0.025),
+    -4px 4px rgba(0,0,0,0.02),
+    -5px 5px rgba(0,0,0,0.015),
+    -6px 6px rgba(0,0,0,0.01),
+    -7px 7px rgba(0,0,0,0.01),
+    -8px 8px rgba(0,0,0,0.01),
+    -9px 9px rgba(0,0,0,0.01),
+    -10px 10px rgba(0,0,0,0.01),
+    -11px 11px rgba(0,0,0,0.01),
+    -12px 12px rgba(0,0,0,0.01),
+    -13px 13px rgba(0,0,0,0.01),
+    -14px 14px rgba(0,0,0,0.01),
+    -15px 15px rgba(0,0,0,0.01),
+    -16px 16px rgba(0,0,0,0.01),
+    -17px 17px rgba(0,0,0,0.01),
+    -18px 18px rgba(0,0,0,0.01),
+    -19px 19px rgba(0,0,0,0.01),
+    -20px 20px rgba(0,0,0,0.01);
 }
 .snowman{
   height: 50vh;
@@ -35,4 +61,14 @@
   border: none;
   border-radius: 15px;
   font-weight: 600;
+}
+.skewed{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+  background: #FFFFFF;
+  transform: skewY(8deg);
+  transform-origin: top right;
 }
