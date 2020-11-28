@@ -5,11 +5,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 .section{
-  background: #206391;
   color: #E5E5E5;
-  position: absolute;
   width: 100vw;
   height: 100vh;
+  z-index: 100;
 }
 .content{
   position: absolute;
@@ -40,7 +39,12 @@
     -17px 17px rgba(0,0,0,0.01),
     -18px 18px rgba(0,0,0,0.01),
     -19px 19px rgba(0,0,0,0.01),
-    -20px 20px rgba(0,0,0,0.01);
+    -20px 20px rgba(0,0,0,0.01),
+    -21px 21px rgba(0,0,0,0.01),
+    -22px 22px rgba(0,0,0,0.01),
+    -23px 23px rgba(0,0,0,0.01),
+    -24px 24px rgba(0,0,0,0.01),
+    -25px 25px rgba(0,0,0,0.01);
 }
 .snowman{
   height: 50vh;
@@ -71,4 +75,7 @@
   background: #FFFFFF;
   transform: skewY(8deg);
   transform-origin: top right;
+}
+.fuck{
+  transform: skewY(0deg);
 }

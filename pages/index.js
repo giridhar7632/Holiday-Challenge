@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { motion } from "framer-motion"
 
 export default function Home() {
   
@@ -25,12 +24,12 @@ export default function Home() {
             </div>
           </div>
           <img src="/snowman.svg" alt="snowman" className={styles.snowman} />
-          <span className={styles.skewed} onScroll={() => {
-            var value = 10 + window.scrollY/60
-            this.style.transform = `skewY(${value}deg)`
-            console.log(value)
-          }}></span>
+          <span className={styles.skewed}>
+          </span>
         </div>
+        <div className={styles.section}>
+        </div>
+        <div className={styles.section}></div>
       </main>
     </div>
   )
