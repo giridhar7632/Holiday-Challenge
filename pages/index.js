@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { motion } from "framer-motion"
 
 export default function Home() {
   
@@ -9,7 +10,6 @@ export default function Home() {
         <title>Holiday Overlay</title>
         <link rel="icon" href="/snowman.svg" />
       </Head>
-
       <main className={styles.main}>
         <div className={styles.section}>
           <div className={styles.content}>
