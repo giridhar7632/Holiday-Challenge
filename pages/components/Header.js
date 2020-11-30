@@ -1,4 +1,4 @@
-import styles from '../../styles/Header.module.css'
+import styles from '../../styles/Home.module.css'
 
 export default function Header() {
   const header={
