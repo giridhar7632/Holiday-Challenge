@@ -1,3 +1,4 @@
+import Snow from 'resnow'
 import styles from '../../styles/Home.module.css'
 
 export default function Header() {
@@ -6,8 +7,17 @@ export default function Header() {
     background: "#206391",
     color: "#FFFFFF"
   }
+  const snow = {
+    position: "absolute",
+    zIndex: "1000"
+  }
   return(
+    <>
+    <div style={snow}>
+      <Snow />
+    </div>
     <header style={header} className={styles.header}>
+      
       <div className={styles.content}>
         <h1 className={styles.title}>
           HOLIDAY CHALLENGE
@@ -18,5 +28,6 @@ export default function Header() {
       </div>  
       <img src="/snowman.svg" alt="snowman" className={styles.snowman} />
     </header>
+    </>
   )
 }

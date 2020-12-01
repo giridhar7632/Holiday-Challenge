@@ -1,3 +1,4 @@
+import Snow from 'resnow'
 import styles from "../../styles/Home.module.css"
 
 export default function Footer(){
@@ -17,8 +18,18 @@ export default function Footer(){
     alignItems: "center",
     flexDirection: "column"
   }
+  const snow = {
+    position: "absolute",
+    top: "200%",
+    width: "100%"
+  }
   return(
+    <>
+    <div style={snow}>
+      <Snow />
+    </div>
     <div style={footer}>
+      
       <div style={center}>
         <p className={styles.heading}>An oppurtunity to <span className={styles.hilight}>test your skills </span> and <span className={styles.hilight}>compete</span> with others</p>
         <button className={styles.btn}><a href="https://airtable.com/shrWZ1BTvA1GzzVnv"> Register Now! </a></button>
@@ -26,5 +37,6 @@ export default function Footer(){
         <p className={styles.text}>&copy; Students Who <span className={styles.hilight}>Code</span> - 2020</p>
       </div>
     </div>
+    </>
   )
 }
